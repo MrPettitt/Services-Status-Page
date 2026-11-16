@@ -14,6 +14,17 @@ A self-contained React status page component with an EKG/pulse-trace visual moti
 
 ## Getting started
 
+### Run the demo
+
+```bash
+npm install
+npm run dev
+```
+
+This starts a small Vite app (`src/main.jsx`) that renders the component with its sample data. `npm run build` produces a static site in `dist/`.
+
+### Use it in your own project
+
 This is a single self-contained component: `status-page-template.jsx`.
 
 ### Requirements
@@ -106,4 +117,4 @@ Change any of these to match your own brand.
 
 ## License
 
-Use this however you like in your own projects.
+Released under the [MIT License](LICENSE).
