@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { CheckCircle2, AlertTriangle, AlertOctagon, Wrench, ChevronDown, Bell, Activity } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
-/*  CONFIG — swap this out per project. Everything below reads from it. */
+/*  CONFIG: swap this out per project. Everything below reads from it. */
 /* ------------------------------------------------------------------ */
 
 const STATUS = {

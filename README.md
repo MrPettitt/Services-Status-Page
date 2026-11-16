@@ -10,7 +10,7 @@ A self-contained React status page component with an EKG/pulse-trace visual moti
 - Components grouped into sections (e.g. Core Services, Edge & Delivery, Regions)
 - Per-component 90-day EKG trace with hover tooltips (day + status) and an uptime percentage
 - Expandable incident timeline with per-update notes and timestamps
-- No external CSS framework required — plain CSS variables, easy to retheme
+- No external CSS framework required: plain CSS variables, easy to retheme
 
 ## Getting started
 
@@ -81,8 +81,8 @@ const statusConfig = {
 };
 ```
 
-- **`groups`** — sections of related components. Each component needs a unique `id`, a `name`, a short `description`, and `incidentDays`: an array of day-offsets (0 = today, 90 = 90 days ago) where that component should show a simulated incident on its trace. This is demo-data generation — swap it for real uptime data from your monitoring system when you wire this up to a backend.
-- **`incidents`** — the timeline shown at the bottom of the page. `severity` controls the colored dot; `updates` is the list of status entries shown when the incident is expanded.
+- **`groups`**: sections of related components. Each component needs a unique `id`, a `name`, a short `description`, and `incidentDays`: an array of day-offsets (0 = today, 90 = 90 days ago) where that component should show a simulated incident on its trace. This is demo-data generation, so swap it for real uptime data from your monitoring system when you wire this up to a backend.
+- **`incidents`**: the timeline shown at the bottom of the page. `severity` controls the colored dot; `updates` is the list of status entries shown when the incident is expanded.
 
 ### Wiring up real data
 
